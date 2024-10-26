@@ -1,0 +1,117 @@
+.App {
+  background-image: url("C:\Users\denis\OneDrive\Desktop\WeatherApp\weather_app\public\sea.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.Card {
+  background-image: url("C:\Users\denis\OneDrive\Desktop\WeatherApp\weather_app\public\image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 499px;
+  width: 35vw;
+  height: 40vw;
+  border-radius: 15px;
+}
+
+.Search {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.Search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Search input {
+  margin-left: 10px;
+  background-color: transparent;
+  width: 75%;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding-right: 50px;
+  box-shadow: 20px;
+  background-color: #d6c8f3;
+  color: black;
+  text-align: center;
+}
+
+.Search button {
+  position: absolute;
+  right: 10px;
+  height: 30px;
+  width: 55px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #ac68ff;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+}
+
+.Main_Content {
+  height: 65%;
+  text-align: center;
+}
+
+.Main_Content .weather-icon {
+  font-size: 120px;
+}
+
+.Footer {
+  width: 80%;
+  margin-left: 50px;
+  border-radius: 15px;
+  height: 110px;
+  position: relative;
+  /* background-color: #d6c8f3; */
+}
+
+.Humidity-icon {
+  font-size: 50px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.Footer-humidity {
+  width: 100px;
+  height: 60px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+.Footer-humidity h4 {
+  position: absolute;
+}
+
+.Wind-icon {
+  font-size: 35px;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+}
+
+.Footer-wind {
+  margin-top: -165px;
+  margin-left: 350px;
+}
+
+.Footer-wind h4 {
+  position: absolute;
+}
